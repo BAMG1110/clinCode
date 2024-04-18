@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="userInput">
+    <h1>Code here</h1>
+    <textarea name="codeInput" id="code_input" cols="30" rows="10"></textarea>
+    <button onclick="Analizar()">Analizar</button>
+    <button onclick="generar()">Compile</button>
+    <select id="language_options">
+        <option value="python">python</option>
+        <option value="javaScript">javaScript</option>
+    </select>
+</div>
+{% endblock %}
